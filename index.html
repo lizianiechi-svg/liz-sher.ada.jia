@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ALJS Garden City High School</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- HEADER WITH LOGO AND INFO -->
+<div class="header-container">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjaCAu7xW9c2GQ1jX9sjWQ4iPPGchGi7GMQw&s" class="logo" />
+    <div class="header-text">
+        <div class="school-name">ALJS Garden City High School</div>
+        <div class="address">#586 George Price Blvd, Belmopan Belize</div>
+        <div class="principal">Principal: Marlon Hernandez | Phone: 672345</div>
+    </div>
+</div>
+
+<!-- NAVIGATION BAR -->
+<nav>
+  <ul>
+    <li>
+      <a href="#home" onclick="showSection('home')">Home</a>
+    </li>
+    <li>
+      <a id="about-link" onclick="toggleAboutDropdown()">About Us</a>
+      <div id="about-dropdown" class="dropdown">
+        <a href="#" onclick="showAboutOption('mission')">Our Mission</a>
+        <a href="#" onclick="showAboutOption('vision')">Our Vision</a>
+        <a href="#" onclick="showAboutOption('history')">Our History</a>
+      </div>
+    </li>
+    <li>
+      <a id="compos-link" onclick="toggleGalleryDropdown()">COMPOS</a>
+      <div id="compos-dropdown" class="dropdown">
+        <a href="#" onclick="showGalleryOption('classRooms')">Our Compound</a>
+        <a href="#" onclick="showGalleryOption('sports')">Class Rooms</a>
+      </div>
+    </li>
+    <!-- New Staff tab -->
+    <li>
+      <a href="#" onclick="showSection('staff')">Staff</a>
+    </li>
+    <li>
+      <a href="#contact" onclick="showSection('contact-section')">Contact</a>
+    </li>
+    <li>
+      <a href="#" onclick="showSection('location')">Location</a>
+    </li>
+  </ul>
+</nav>
+
+<!-- MAIN SECTIONS -->
+<section id="home">
+  "Empowering Minds, Inspiring Futures"
+  <h2>Welcome to ALJS Garden City High School</h2>
+  <p>Discover the beauty and mystery of ALJS Garden City. We are dedicated to creating a magical experience for everyone who visits us. Join us for unforgettable moments and enchanting memories.</p>
+  <a href="Dear Teachers REGISTRATION.docx.pdf" download>Download Dear Teachers Registration PDF</a>
+  <a href="Student REGISTRATION.docx (1).pdf" download>Download Student Registration PDF</a>
+</section>
+
+<!-- Other sections omitted for brevity, same as your original file -->
+
+<!-- Footer -->
+<footer>
+  &copy; 2025-2026 ALJS Garden City High School. All rights reserved.
+</footer>
+
+<script>
+  // Your existing JavaScript functions...
+  // (same as in your provided code)
+</script>
+</body>
+</html>
